@@ -94,14 +94,14 @@ House-Price-Prediction/
 │
 ├── app.py
 ├── model/
-│ └── house_price_pipeline.pkl
+│   └── house_price_pipeline.pkl
 ├── data/
-│ └── Housing.csv
+│   └── Housing.csv
 ├── screenshots/
-│ ├── tab1_prediction.png
-│ ├── tab2_insights.png
-│ ├── tab3_about.png
-│ └── prediction_result.png
+│   ├── tab1_prediction.png
+│   ├── tab2_insights.png
+│   ├── tab3_about.png
+│   └── prediction_result.png
 ├── requirements.txt
 └── README.md
 
