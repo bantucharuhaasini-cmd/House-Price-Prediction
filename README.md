@@ -90,6 +90,8 @@ The model is trained using a **Scikit-learn Pipeline**, which handles preprocess
 ### 📁 Project Structure
 Below is the complete project structure:
 
+Below is the complete project structure:
+
 House-Price-Prediction/
 │
 ├── app.py
