@@ -1,144 +1,129 @@
 # 🏠 House Price Prediction using Machine Learning
 
-An end-to-end Machine Learning project that predicts house prices based on user input features using a trained **Gradient Boosting Regressor Pipeline** and deployed using **Streamlit**.
+> A real-world end-to-end Machine Learning web application that predicts house prices using a trained **Gradient Boosting Regressor Pipeline** and deployed with **Streamlit**.
 
 ---
 
 ## 🚀 Live Demo
-(If deployed, add link here)
-
+🔗 [Click here to view the app](https://your-streamlit-app-link)
 
 ---
 
 ## 📌 Project Overview
 
-This project predicts house prices based on multiple features such as:
-- Area
-- Bedrooms
-- Bathrooms
-- Stories
-- Parking
-- Location features
-- Furnishing status
+This project predicts house prices based on multiple property features such as area, number of bedrooms, bathrooms, location, and amenities.
 
-The model is trained using a **Scikit-learn Pipeline**, which handles preprocessing + model training in one workflow.
+The system uses a complete **Machine Learning Pipeline** including preprocessing and model training, ensuring clean and production-ready deployment.
+
+---
+
+## 🎯 Problem Statement
+
+Real estate pricing depends on multiple factors and is often inconsistent.  
+This project aims to build a machine learning model that accurately estimates house prices based on input features.
 
 ---
 
 ## 🧠 Machine Learning Workflow
 
-- Data Collection (Housing Dataset)
-- Data Preprocessing (Encoding categorical variables)
-- Model Training (Gradient Boosting Regressor)
-- Pipeline Creation
-- Model Evaluation
-- Deployment using Streamlit
+✔ Data Collection (Housing Dataset)  
+✔ Data Preprocessing (Encoding + Cleaning)  
+✔ Feature Engineering  
+✔ Model Training (Gradient Boosting Regressor)  
+✔ Pipeline Creation (Sklearn Pipeline)  
+✔ Model Evaluation  
+✔ Web Deployment using Streamlit  
 
 ---
 
-## 🧰 Tech Stack
+## 📊 Model Performance
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Streamlit
-- Joblib
-- Matplotlib (optional for feature importance)
-
----
-
-## 📊 Model Details
-
-- Model: Gradient Boosting Regressor
-- Type: Regression Problem
-- Output: Continuous House Price Prediction
-- Evaluation Metric: R² Score, MAE, MSE
+- Model Used: Gradient Boosting Regressor  
+- Problem Type: Regression  
+- Evaluation Metrics:
+  - R² Score
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
 
 ---
 
 ## 🖥️ Web App Features
 
-- Interactive UI using Streamlit
-- Real-time prediction
-- Input summary dashboard
-- Feature importance visualization
-- Tab-based navigation (Predict / Insights / About)
+✔ Interactive UI using Streamlit  
+✔ Real-time house price prediction  
+✔ Input summary dashboard  
+✔ Tab-based navigation (Predict / Insights / About)  
+✔ Feature importance visualization  
+✔ Clean and responsive layout  
 
 ---
 
-## 📸 Screenshots
-
-### 🏡 Tab 1: Prediction Page
-![Prediction Page](screenshots/tab1_prediction.png)
-
----
-
-### 📊 Tab 2: Insights Page
-![Insights Page](screenshots/tab2_insights.png)
-
----
-
-### ℹ️ Tab 3: About Page
-![About Page](screenshots/tab3_about.png)
-
----
-
-### 🔮 Final Prediction Output
-![Prediction Result](screenshots/prediction_result.png)
-
----
-### 📁 Project Structure
-Below is the complete project structure:
-
-Below is the complete project structure:
-
+## 📁 Project Structure
+``` id="cleanstruct"
 House-Price-Prediction/
 │
 ├── app.py
+│
 ├── model/
 │   └── house_price_pipeline.pkl
+│
 ├── data/
 │   └── Housing.csv
+│
 ├── screenshots/
 │   ├── tab1_prediction.png
 │   ├── tab2_insights.png
 │   ├── tab3_about.png
 │   └── prediction_result.png
+│
 ├── requirements.txt
 └── README.md
+
+```
+## 📸 Screenshots
+
+### 🏡 Prediction Page
+![Prediction Page](screenshots/tab1_prediction.png)
+
+### 📊 Insights Page
+![Insights Page](screenshots/tab2_insights.png)
+
+### ℹ️ About Page
+![About Page](screenshots/tab3_about.png)
+
+### 🔮 Prediction Result
+![Result](screenshots/prediction_result.png)
 
 ---
 
 ## ⚙️ How to Run This Project
-
-### 1. Clone Repository
-
+```
 git clone https://github.com/yourusername/House-Price-Prediction.git
-
-### 2. Install Dependencies
+cd House-Price-Prediction
 pip install -r requirements.txt
+streamlit run app.py
+```
+---
+🧰 Tech Stack
 
+- Python
+- Pandas/Numpy
+- Scikit-learn
+- Streamlit
+- Joblib
+
+---
+💡 Key Highlights
+
+- End-to-end ML pipeline
+- Real-world regression problem
+- Clean web deployment
+- Interactive dashboard UI
+- Industry-style project structure
 
 ---
 
-## 📈 Results
-
-- Good prediction accuracy using Gradient Boosting
-- Stable pipeline ensures consistent preprocessing
-- Real-time interactive predictions
-
----
-
-## 🎯 Future Improvements
-
-- Add SHAP explainability
-- Deploy on Streamlit Cloud
-- Add model comparison (Random Forest, XGBoost)
-- Improve UI with Plotly charts
-
----
 
 ## 👨‍💻 Author
 
-- Developed by: Charu haasini
-- Domain: Machine Learning | AI & Data Science
+Charu Haasini 
