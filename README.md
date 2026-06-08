@@ -4,10 +4,6 @@
 
 ---
 
-## 🚀 Live Demo
-🔗 [Click here to view the app](https://your-streamlit-app-link)
-
----
 
 ## 📌 Project Overview
 
